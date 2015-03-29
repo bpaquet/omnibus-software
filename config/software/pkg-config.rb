@@ -20,10 +20,10 @@ default_version "0.28"
 dependency "libiconv"
 
 version "0.28" do
-  source md5: "aa3c86e67551adc3ac865160e34a2a0d"
+  source md5: "2aba061960e72dfe06a59a1e1907bf03"
 end
 
-source url: "http://pkgconfig.freedesktop.org/releases/pkg-config-#{version}.tar.gz"
+source url: "https://github.com/bpaquet/ppc64le/raw/master/pkg-config-#{version}.tar.gz"
 
 relative_path "pkg-config-#{version}"
 

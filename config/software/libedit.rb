@@ -20,14 +20,14 @@ default_version "20120601-3.0"
 dependency "ncurses"
 
 version "20120601-3.0" do
-  source md5: "e50f6a7afb4de00c81650f7b1a0f5aea"
+  source md5: "78dadcc9bb2f8e79c42efa7ec76ea802"
 end
 
 version "20130712-3.1" do
   source md5: "0891336c697362727a1fa7e60c5cb96c"
 end
 
-source url: "http://www.thrysoee.dk/editline/libedit-#{version}.tar.gz"
+source url: "https://github.com/bpaquet/ppc64le/raw/master/libedit-#{version}.tar.gz"
 
 relative_path "libedit-#{version}"
 

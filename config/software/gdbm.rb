@@ -17,8 +17,8 @@
 name "gdbm"
 default_version "1.9.1"
 
-source url: "http://ftp.gnu.org/gnu/gdbm/gdbm-1.9.1.tar.gz",
-       md5: "59f6e4c4193cb875964ffbe8aa384b58"
+source url: "https://github.com/bpaquet/ppc64le/raw/master/gdbm-1.9.1.tar.gz",
+       md5: "0fd3ff00422f99d83bdbf6c19891e109"
 
 relative_path "gdbm-1.9.1"
 

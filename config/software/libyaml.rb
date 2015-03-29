@@ -17,8 +17,8 @@
 name "libyaml"
 default_version '0.1.6'
 
-source url: "http://pyyaml.org/download/libyaml/yaml-#{version}.tar.gz",
-       md5: '5fe00cda18ca5daeb43762b80c38e06e'
+source url: "https://github.com/bpaquet/ppc64le/raw/master/yaml-#{version}.tar.gz",
+       md5: 'dc59ee9fb5e1afa2f1833349a9b14fad'
 
 relative_path "yaml-#{version}"
 

@@ -17,8 +17,8 @@
 name "libiconv"
 default_version "1.14"
 
-source url: "http://ftp.gnu.org/pub/gnu/libiconv/libiconv-#{version}.tar.gz",
-       md5: 'e34509b1623cec449dfeb73d7ce9c6c6'
+source url: "https://github.com/bpaquet/ppc64le/raw/e4eb605b0f76b0fe15b57d98c901a21f38a14d8f/libiconv-#{version}.tar.gz",
+       md5: '5fa50d38c72bbae60563b734c65cfa25'
 
 relative_path "libiconv-#{version}"
 

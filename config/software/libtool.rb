@@ -18,14 +18,14 @@ name "libtool"
 default_version "2.4"
 
 version "2.4" do
-  source md5: "b32b04148ecdd7344abc6fe8bd1bb021"
+  source md5: "bacf50418b86d489cbb067fa973cead0"
 end
 
 version "2.4.2" do
   source md5: "d2f3b7d4627e69e13514a40e72a24d50"
 end
 
-source url: "http://ftp.gnu.org/gnu/libtool/libtool-#{version}.tar.gz"
+source url: "https://github.com/bpaquet/ppc64le/raw/master/libtool-#{version}.tar.gz"
 
 relative_path "libtool-#{version}"
 
